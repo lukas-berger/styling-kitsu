@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name         Kitsu Compact Library
 @description  A compact library style for kitsu.io
-@namespace    kitsu.io
+@namespace    lukas.berger
+@homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.0
-@preprocessor default
+@version      0.1.1
+@license      CC-BY-4.0
 ==/UserStyle== */
 @-moz-document regexp("https://kitsu.io/users/.*/library.*") {
 table.library-list :is(.occludable-area, .readonly-rating) {
