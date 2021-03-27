@@ -19,7 +19,7 @@ This adds the media type to the end of the tagged title.
 
 
 ## Square Avatars
-Not a fan of circular avatars? This is for you.
+Not a fan of circular avatars? This is for you. Makes the circular avatars square, increases size of avatars on user profiles, slightly larger avatars for the OP on posts.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/lukas-berger/styling-kitsu/main/square-avatars/square-avatars.user.css)
 
