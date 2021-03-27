@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name         Kitsu Square Avatars
 @description  Makes the circular avatars square, increases size of avatars on user profiles, slightly larger avatars on OPs
-@namespace    kitsu.io
+@namespace    lukas.berger
+@homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.0
-@preprocessor default
+@version      0.1.1
+@license      CC-BY-4.0
 ==/UserStyle== */
 @-moz-document domain("kitsu.io") {
 img[src*="kitsu.io/users/avatars"],
