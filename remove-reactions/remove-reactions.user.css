@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         Kitsu Remove Reactions
+@description  Removes reactions outside of the Reactions tab
+@namespace    kitsu.io
+@author       Lukas Berger
+@version      0.1.0
+@preprocessor default
+==/UserStyle== */
+@-moz-document regexp("^https:\\/\\/kitsu\\.io\\/(?!.*reactions).*$") {
+.cover-media-info, 
+.media--reactions {
+    display: none !important;
+}
+}
