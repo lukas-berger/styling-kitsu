@@ -1,6 +1,6 @@
 # A new look for kitsu.io
 ## Compact Library
-See more of the library at a glance.
+See more of the library at a glance. Posters are only shown on hover, the respective row gets highlighted.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/lukas-berger/styling-kitsu/main/compact-library/compact-library.user.css)
 
