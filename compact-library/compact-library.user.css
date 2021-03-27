@@ -28,51 +28,78 @@ table.library-list td {
     padding: 0 !important;
 }
 table.library-list td.status {
-    padding: 4px !important;
+    height: 24px;
+    width: 8px;
     margin: 0;
 }
 table.library-list :is(.checkbox-cell, .title-wrapper, .release-status-cell, .star-rating-cell, .progress-cell, .edit-entry, thead th) {
     line-height: 24px !important;
 }
-table.library-list :is(.cell-poster, .checkbox-cell, .reaction-status--add, .entry-rating-star svg) {
+table.library-list :is(.checkbox-cell, .entry-rating-star svg) {
     display: none !important;
-    margin: 0 !important;
-    border: none !important;
 }
 table.library-list td.media-cell {
     padding-left: 8px !important;
 }
-table.library-list .reaction-status {
+table.library-list .reaction-status,
+table.library-list .reaction-status--add {
     position: absolute;
-    top: 4px;
+    top: 2px;
     left: -24px;
 }
 table.library-list .release-status-cell svg {
-    top: -18px !important;
-    right: 8px !important;
+    top: -18px;
+    right: 8px;
 }
 table.library-list .entry-rating-empty svg {
-    height: 12px !important;
-    transform: translateY(-7px) !important;
-    fill: #666 !important;
+    height: 12px;
+    transform: translateY(-7px);
+    fill: #666;
 }
 table.library-list .current-rating {
     color: #bbb !important;
-    mix-blend-mode: difference !important;
-    text-align: center !important;
+    mix-blend-mode: difference;
+    text-align: center;
 }
 table.library-list tbody .progress-cell {
     padding-right: 10px !important;
 }
 table.library-list td.status-completed ~ td.progress-cell a.link {
-    font-weight: 400 !important;
-    color: #BBB !important;
+    font-weight: 400 ;
+    color: #BBB;
 }
 table.library-list .edit-entry-button {
     line-height: 24px;
-    padding: 0 25% !important;
+    padding: 0 25%;
 }
-table.library-list .occludable-area:hover {
-    background: rgba(128,128,128,.2) !important;
+.occludable-area:hover {
+    background: rgba(128,128,128,.2);
+}
+
+table.library-list {
+    overflow: visible;
+}
+
+table.library-list .cell-poster {
+    opacity: 0;
+    position: absolute;
+    left: -140px;
+    bottom: 0px;
+    width: 110px;
+    height: auto;
+    background: rgba(128,128,128,.2);
+    transition: opacity 250ms ease-in-out;
+}
+.occludable-area:hover .cell-poster,
+.occludable-area:hover .reaction-status--add {
+    opacity: 1;
+}
+.media-cell .reaction-status--add {
+    display: inline-block !important;
+    opacity: 0.33;
+    transition: opacity 250ms ease-in-out;
+}
+.media-cell .reaction-status--add:hover {
+    opacity: 1;
 }
 }
