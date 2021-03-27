@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Kitsu Square Avatars
+@description  Makes the circular avatars square, increases size of avatars on user profiles, slightly larger avatars on OPs
+@namespace    kitsu.io
+@author       Lukas Berger
+@version      0.1.0
+@preprocessor default
+==/UserStyle== */
+@-moz-document domain("kitsu.io") {
+.tagged-media--wrapper a.author-name:after {
+    color: #afafaf;
+    font-weight: 400;
+}
+.tagged-media--wrapper a.author-name[href^="/anime"]:last-of-type:after {
+    content: ' — Anime';
+}
+.tagged-media--wrapper a.author-name[href^="/manga"]:last-of-type:after {
+    content: ' — Manga';
+}
+.tagged-media--wrapper a.author-name[href$="-novel"]:last-of-type:after,
+.tagged-media--wrapper a.author-name[href*="-novel/"]:last-of-type:after {
+    content: ' — Light Novel';
+}
+}
