@@ -4,7 +4,7 @@ See more of the library at a glance.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](MY.USER.CSS)
 
-![PlaceholderImage](https://via.placeholder.com/150)
+![PlaceholderImage](/compact-library/kitsucompactlibrary.jpg)
 
 
 
@@ -13,7 +13,7 @@ Sometimes it's not clear right away if the tagged media is anime, light novel or
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](MY.USER.CSS)
 
-![PlaceholderImage](https://via.placeholder.com/150)
+![PlaceholderImage](/tagged-media-type/kitsutaggedmediatype.jpg)
 
 
 
@@ -22,7 +22,7 @@ Not a fan of circular avatars? This is for you.
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](MY.USER.CSS)
 
-![PlaceholderImage](https://via.placeholder.com/150)
+![PlaceholderImage](/square-avatars/kitsusquareavatars.jpg)
 
 
 
@@ -31,4 +31,4 @@ Reactions can be distracting, this removes them from all pages except for the Re
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](MY.USER.CSS)
 
-![PlaceholderImage](https://via.placeholder.com/150)
+![PlaceholderImage](/remove-reactions/kitsuremovereactions.jpg)
