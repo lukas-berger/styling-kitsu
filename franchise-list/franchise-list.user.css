@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name         Kitsu Franchise List
+@description  Changes the layout of the franchise tab from grid to list on kitsu.io
+@namespace    lukas.berger
+@homepageURL  https://github.com/lukas-berger/styling-kitsu
+@author       Lukas Berger
+@version      0.1.0
+@license      CC-BY-4.0
+==/UserStyle== */
+@-moz-document regexp("https://kitsu.io/.*/franchise") {
+ .media-container.row {
+     height: 100%;
+ }
+
+ .media--franchise-header {
+     height: 50px;
+ }
+
+ .media--franchise-grid {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 100%;
+ }
+
+ .media--franchise-item {
+     width: auto !important;
+     max-width: 100% !important;
+     height: 70px;
+     padding: 0;
+     display: flex;
+     align-items: center;
+ }
+
+ .poster-wrapper {
+     height: 100%;
+     margin-right: 20px;
+ }
+
+ .poster-wrapper .ember-view,
+ .poster-wrapper .ember-view .grid-poster,
+ .poster-wrapper .ember-view .grid-poster img.lazyloaded {
+     height: 100%;
+     margin: 0;
+ }
+
+ .media--franchise-item:hover .poster-overlay {
+     opacity: 1 !important;
+ }
+
+ .media--franchise-item-meta {
+     max-width: 85% !important;
+ }
+
+ .poster-overlay .library-state {
+     height: 100% !important;
+     width: 0 !important;
+     padding: 0 !important;
+ }
+
+ .poster-overlay .library-state button {
+     position: absolute;
+     left: 180px;
+     top: 48%;
+     padding: 8px;
+     height: auto !important;
+     width: 150px !important;
+ }
+
+ .media-tooltip {
+     left: 300px !important;
+     top: 6.75rem !important;
+ }
+}
