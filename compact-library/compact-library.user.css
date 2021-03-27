@@ -3,7 +3,7 @@
 @description  A compact library style for kitsu.io
 @namespace    kitsu.io
 @author       Lukas Berger
-@version      1.0
+@version      0.1.0
 @preprocessor default
 ==/UserStyle== */
 @-moz-document regexp("https://kitsu.io/users/.*/library.*") {
