@@ -90,6 +90,7 @@ table.library-list .cell-poster {
     height: auto;
     background: rgba(128,128,128,.2);
     transition: opacity 250ms ease-in-out;
+    pointer-events: none;
 }
 .occludable-area:hover .cell-poster,
 .occludable-area:hover .reaction-status--add {
