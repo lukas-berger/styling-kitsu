@@ -4,10 +4,13 @@
 @namespace    lukas.berger
 @homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.2
+@version      0.1.3
 @license      CC-BY-4.0
 ==/UserStyle== */
 @-moz-document regexp("https://kitsu.io/users/.*/library.*") {
+.library-content {
+    margin-bottom: 75px;
+} 
 table.library-list :is(.occludable-area, .readonly-rating) {
     position: relative;
     overflow: visible;
@@ -16,6 +19,9 @@ table.library-list .occludable-area,
 table.library-list .edit-entry {
     height: 24px !important;
 }
+table.library-list .occludable-area tr {
+    height: 100%;
+} 
 table.library-list thead th {
     padding: 10px 0px;
 }
@@ -88,6 +94,7 @@ table.library-list .cell-poster {
     bottom: 0px;
     width: 110px;
     height: auto;
+    transform: translateY(45%);
     background: rgba(128,128,128,.2);
     transition: opacity 250ms ease-in-out;
     pointer-events: none;
