@@ -4,13 +4,14 @@
 @namespace    lukas.berger
 @homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.1
+@version      0.1.2
 @license      CC-BY-4.0
 ==/UserStyle== */
 @-moz-document domain("kitsu.io") {
 img[src*="kitsu.io/users/avatars"],
 img[src*="kitsu.io/groups/avatars"],
 img[src*="/images/default_avatar"],
+.search--results .media img.is-avatar-users:not([src]),
 .notifications,
 .stream-like-count a {
     border-radius: 0% !important;
