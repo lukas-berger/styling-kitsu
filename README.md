@@ -49,3 +49,4 @@ Fixes the missing default avatars in search results.
 
 ![Search Results Avatar Fix](/search-results-avatar-fix/kitsusearchresultsavatarfix.jpg)
 
+Test
