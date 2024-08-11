@@ -1,4 +1,4 @@
-# A new look for kitsu.io
+# A new look for kitsu.app
 ## Compact Library
 See more of the library at a glance. Posters are only shown on hover, the respective row gets highlighted.
 
