@@ -4,10 +4,10 @@
 @namespace    lukas.berger
 @homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.1
+@version      0.1.2
 @license      CC-BY-4.0
 ==/UserStyle== */
-@-moz-document domain("kitsu.io") {
+@-moz-document domain("kitsu.app") {
 .tagged-media--wrapper a.author-name:after {
     color: #afafaf;
     font-weight: 400;
