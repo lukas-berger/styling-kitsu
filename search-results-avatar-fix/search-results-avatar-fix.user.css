@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         Kitsu Search Results Avatar Fix
-@description  Fixes the missing default avatar in search results on kitsu.io
+@description  Fixes the missing default avatar in search results on kitsu.app
 @namespace    lukas.berger
 @homepageURL  https://github.com/lukas-berger/styling-kitsu
 @author       Lukas Berger
-@version      0.1.0
+@version      0.1.1
 @license      CC-BY-4.0
 ==/UserStyle== */
-@-moz-document domain("kitsu.io") {
+@-moz-document domain("kitsu.app") {
 .search--results .media img.is-avatar-users:not([src]) {
     background-image: url(/images/default_avatar-2ec3a4e2fc39a0de55bf42bf4822272a.png);
     background-size: cover;    
